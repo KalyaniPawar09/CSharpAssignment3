@@ -1,0 +1,11 @@
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.frm_Login.resources
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.Properties.Resources.resources
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.csproj.GenerateResource.Cache
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.csprojResolveAssemblyReference.cache
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.frm_Add_New_Student.resources
+D:\kpawar\C#\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.exe.config
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.frm_View_All_Student_Details.resources
+D:\kpawar\C#\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.exe
+D:\kpawar\C#\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.pdb
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.exe
+D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.pdb

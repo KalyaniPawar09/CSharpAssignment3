@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SgmApp2022", "SgmApp2022\SgmApp2022.csproj", "{1B52E34D-810B-45F5-B2D6-EE836A23D236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B52E34D-810B-45F5-B2D6-EE836A23D236}.Debug|x86.ActiveCfg = Debug|x86
+		{1B52E34D-810B-45F5-B2D6-EE836A23D236}.Debug|x86.Build.0 = Debug|x86
+		{1B52E34D-810B-45F5-B2D6-EE836A23D236}.Release|x86.ActiveCfg = Release|x86
+		{1B52E34D-810B-45F5-B2D6-EE836A23D236}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
