@@ -9,3 +9,18 @@ D:\kpawar\C#\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.exe
 D:\kpawar\C#\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.pdb
 D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.exe
 D:\kpawar\C#\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.pdb
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.exe.config
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.exe
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.pdb
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.exe
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.pdb
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.csprojResolveAssemblyReference.cache
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.frm_Add_New_Student.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.frm_Login.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.Properties.Resources.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.frm_View_All_Student_Details.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.csproj.GenerateResource.Cache
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.frm_Search_Student_Details.resources
+C:\Users\91862\OneDrive\Desktop\Csharp Assignment 3\SgmApp2022\SgmApp2022\bin\Debug\SgmApp2022.exe.config
+C:\Users\91862\OneDrive\Desktop\Csharp Assignment 3\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.exe
+C:\Users\91862\OneDrive\Desktop\Csharp Assignment 3\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.pdb

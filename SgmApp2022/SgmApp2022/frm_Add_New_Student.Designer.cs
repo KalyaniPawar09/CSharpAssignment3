@@ -43,6 +43,8 @@
             this.cmb_Course = new System.Windows.Forms.ComboBox();
             this.btn_Save = new System.Windows.Forms.Button();
             this.btn_View_All_Student_List = new System.Windows.Forms.Button();
+            this.btn_Search_Student_Details = new System.Windows.Forms.Button();
+            this.lbl_UName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_Add_New_Student
@@ -129,11 +131,12 @@
             this.btn_Logout.TabIndex = 6;
             this.btn_Logout.Text = "Logout";
             this.btn_Logout.UseVisualStyleBackColor = false;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // tb_Name
             // 
             this.tb_Name.Font = new System.Drawing.Font("Rockwell", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_Name.Location = new System.Drawing.Point(493, 244);
+            this.tb_Name.Location = new System.Drawing.Point(447, 241);
             this.tb_Name.MaxLength = 50;
             this.tb_Name.Name = "tb_Name";
             this.tb_Name.Size = new System.Drawing.Size(256, 46);
@@ -143,7 +146,7 @@
             // tb_RollNo
             // 
             this.tb_RollNo.Font = new System.Drawing.Font("Rockwell", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_RollNo.Location = new System.Drawing.Point(493, 161);
+            this.tb_RollNo.Location = new System.Drawing.Point(447, 158);
             this.tb_RollNo.MaxLength = 5;
             this.tb_RollNo.Name = "tb_RollNo";
             this.tb_RollNo.Size = new System.Drawing.Size(256, 46);
@@ -153,7 +156,7 @@
             // tb_MobileNo
             // 
             this.tb_MobileNo.Font = new System.Drawing.Font("Rockwell", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_MobileNo.Location = new System.Drawing.Point(496, 389);
+            this.tb_MobileNo.Location = new System.Drawing.Point(447, 389);
             this.tb_MobileNo.MaxLength = 10;
             this.tb_MobileNo.Name = "tb_MobileNo";
             this.tb_MobileNo.Size = new System.Drawing.Size(256, 46);
@@ -165,7 +168,7 @@
             this.dtp_DOB.CalendarTitleBackColor = System.Drawing.Color.AliceBlue;
             this.dtp_DOB.CalendarTitleForeColor = System.Drawing.Color.AliceBlue;
             this.dtp_DOB.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtp_DOB.Location = new System.Drawing.Point(496, 317);
+            this.dtp_DOB.Location = new System.Drawing.Point(447, 317);
             this.dtp_DOB.MaxDate = new System.DateTime(2002, 12, 31, 0, 0, 0, 0);
             this.dtp_DOB.MinDate = new System.DateTime(1980, 1, 1, 0, 0, 0, 0);
             this.dtp_DOB.Name = "dtp_DOB";
@@ -186,7 +189,7 @@
             "Mcs",
             "Mca",
             "Other"});
-            this.cmb_Course.Location = new System.Drawing.Point(496, 476);
+            this.cmb_Course.Location = new System.Drawing.Point(447, 474);
             this.cmb_Course.Name = "cmb_Course";
             this.cmb_Course.Size = new System.Drawing.Size(253, 39);
             this.cmb_Course.TabIndex = 5;
@@ -197,7 +200,7 @@
             this.btn_Save.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Save.Font = new System.Drawing.Font("Rockwell", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Save.ForeColor = System.Drawing.Color.Cornsilk;
-            this.btn_Save.Location = new System.Drawing.Point(155, 583);
+            this.btn_Save.Location = new System.Drawing.Point(12, 583);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(120, 48);
             this.btn_Save.TabIndex = 6;
@@ -211,7 +214,7 @@
             this.btn_View_All_Student_List.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_View_All_Student_List.Font = new System.Drawing.Font("Rockwell", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_View_All_Student_List.ForeColor = System.Drawing.Color.Cornsilk;
-            this.btn_View_All_Student_List.Location = new System.Drawing.Point(496, 583);
+            this.btn_View_All_Student_List.Location = new System.Drawing.Point(545, 583);
             this.btn_View_All_Student_List.Name = "btn_View_All_Student_List";
             this.btn_View_All_Student_List.Size = new System.Drawing.Size(351, 48);
             this.btn_View_All_Student_List.TabIndex = 7;
@@ -219,11 +222,40 @@
             this.btn_View_All_Student_List.UseVisualStyleBackColor = false;
             this.btn_View_All_Student_List.Click += new System.EventHandler(this.btn_View_All_Student_List_Click);
             // 
+            // btn_Search_Student_Details
+            // 
+            this.btn_Search_Student_Details.AccessibleName = "";
+            this.btn_Search_Student_Details.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_Search_Student_Details.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Search_Student_Details.Font = new System.Drawing.Font("Rockwell", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Search_Student_Details.ForeColor = System.Drawing.Color.Cornsilk;
+            this.btn_Search_Student_Details.Location = new System.Drawing.Point(155, 583);
+            this.btn_Search_Student_Details.Name = "btn_Search_Student_Details";
+            this.btn_Search_Student_Details.Size = new System.Drawing.Size(374, 48);
+            this.btn_Search_Student_Details.TabIndex = 22;
+            this.btn_Search_Student_Details.Text = "Search Student Details";
+            this.btn_Search_Student_Details.UseVisualStyleBackColor = false;
+            this.btn_Search_Student_Details.Click += new System.EventHandler(this.btn_Search_Student_Details_Click);
+            // 
+            // lbl_UName
+            // 
+            this.lbl_UName.AutoSize = true;
+            this.lbl_UName.BackColor = System.Drawing.Color.DarkOrange;
+            this.lbl_UName.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_UName.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lbl_UName.Location = new System.Drawing.Point(6, 2);
+            this.lbl_UName.Name = "lbl_UName";
+            this.lbl_UName.Size = new System.Drawing.Size(160, 35);
+            this.lbl_UName.TabIndex = 23;
+            this.lbl_UName.Text = "UserName";
+            // 
             // frm_Add_New_Student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 703);
+            this.ClientSize = new System.Drawing.Size(908, 720);
+            this.Controls.Add(this.lbl_UName);
+            this.Controls.Add(this.btn_Search_Student_Details);
             this.Controls.Add(this.btn_View_All_Student_List);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.cmb_Course);
@@ -267,5 +299,7 @@
         private System.Windows.Forms.ComboBox cmb_Course;
         private System.Windows.Forms.Button btn_Save;
         private System.Windows.Forms.Button btn_View_All_Student_List;
+        private System.Windows.Forms.Button btn_Search_Student_Details;
+        private System.Windows.Forms.Label lbl_UName;
     }
 }

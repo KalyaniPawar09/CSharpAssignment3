@@ -1,0 +1,7 @@
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmStudentApp2022.frm_Add_New_Student.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmStudentApp2022.frm_Login.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmStudentApp2022.frm_Search_Student_Details.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmStudentApp2022.Properties.Resources.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmStudentApp2022.frm_View_All_Student_Details.resources
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmStudentApp2022.csproj.GenerateResource.Cache
+C:\Users\91862\OneDrive\Desktop\Cs Assignment\SgmApp2022\SgmApp2022\obj\x86\Debug\SgmApp2022.exe

@@ -77,12 +77,7 @@ namespace SgmApp2022
         }
 
       
-       private void btn_Logout_Click(object sender, EventArgs e)
-        {
-           frm_Login Obj = new frm_Login();
-            Obj.Show();
-            this.Hide();
-        }
+      
 
        private void btn_Save_Click(object sender, EventArgs e)
        {
@@ -120,9 +115,25 @@ namespace SgmApp2022
            }
            Con_Close();
        }
+
+       private void btn_Logout_Click(object sender, EventArgs e)
+       {
+           
+           frm_Login Obj = new frm_Login();
+           Obj.Show();
+           this.Hide();
+
+       }
+
+       private void btn_Search_Student_Details_Click(object sender, EventArgs e)
+       {
+           frm_Search_Student_Details Obj = new frm_Search_Student_Details();
+           Obj.Show();
+           this.Hide();
+       }
+
        
-
-
-        }   
-    }
+       }
+     }   
+    
 
